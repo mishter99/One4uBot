@@ -1,6 +1,7 @@
 {
-  "name": "Project Bish UserBot",
-  "description": "[projectbish] A modular Telegram userbot running on Python 3.8",
+  "name": "Project One4uBot",
+  "description": "[One4uBot] A modular Telegram userbot running on Python 3.8",
+  "logo": "https://i.ibb.co/CzXcJ0S/photo-2020-01-28-23-32-03.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -8,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/adekmaulana/ProjectBish",
+  "repository": "https://github.com/MoveAngel/One4uBot",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "stack": "container",
   "env": {

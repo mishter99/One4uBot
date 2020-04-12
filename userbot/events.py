@@ -1,6 +1,6 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for managing events.
@@ -93,9 +93,9 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "Support chat PM: @adekmaulana"
+                    link = "[Userbot Indo Support](https://t.me/userbotindo)"
                     text += "If you want to, you can report it"
-                    text += f"- just forward this message to {link}.\n"
+                    text += f". Head and forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
 
                     ftext = "========== DISCLAIMER =========="
@@ -136,14 +136,14 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.client.respond(
-                            "`Sorry, my userbot has crashed."
-                            "\nThe error logs are stored in the userbot's log chat.`"
+                            "`Sorry, my userbot has crashed.\
+                        \nThe error logs are stored in the userbot's log chat.`"
                         )
 
-                        await check.client.send_file(send_to,
-                                                     "error.log",
-                                                     caption=text)
-                        remove("error.log")
+                    await check.client.send_file(send_to,
+                                                 "error.log",
+                                                 caption=text)
+                    remove("error.log")
             else:
                 pass
 
