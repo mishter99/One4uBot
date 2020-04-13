@@ -42,7 +42,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Your forked repo.",
-      "value": "https://github.com/adekmaulana/ProjectBish",
+      "value": "https://github.com/MoveAngel/One4uBot",
       "required": true
     },
     "UPSTREAM_REPO_BRANCH": {
